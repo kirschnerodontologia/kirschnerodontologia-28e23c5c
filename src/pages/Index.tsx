@@ -40,6 +40,7 @@ const Index = () => (
       <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
     </Helmet>
     <main>
+      <TopBar />
       <Hero />
       <Treatments />
       <Differentials />

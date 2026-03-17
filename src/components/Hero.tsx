@@ -116,8 +116,8 @@ const Hero = () => {
       {/* Treatment Cards Carousel */}
       <div className="relative w-full overflow-hidden pb-8">
         {/* Gradient Overlays */}
-        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-primary to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-primary to-transparent" />
+        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-background to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-background to-transparent" />
 
         {/* Scrolling Container */}
         <motion.div
