@@ -82,7 +82,7 @@ const Hero = () => {
             </a>
             <a
               href="#tratamentos"
-              className="inline-flex items-center justify-center gap-1 rounded-full border border-primary-foreground/20 px-6 py-4 text-base font-body font-medium text-primary-foreground/80 transition-colors hover:bg-primary-foreground/5"
+              className="inline-flex items-center justify-center gap-1 rounded-full border border-border px-6 py-4 text-base font-body font-medium text-foreground/80 transition-colors hover:bg-muted"
             >
               Ver tratamentos
               <ChevronDown className="h-4 w-4" />
