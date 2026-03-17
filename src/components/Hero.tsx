@@ -63,7 +63,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl text-primary-foreground/60 font-body max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground font-body max-w-2xl mx-auto">
             Implantes, próteses, facetas e harmonização facial — tudo em uma
             clínica especializada no coração de São Paulo.
           </p>
