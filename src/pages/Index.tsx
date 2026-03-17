@@ -1,3 +1,4 @@
+import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
 import Treatments from "@/components/Treatments";
 import Differentials from "@/components/Differentials";
