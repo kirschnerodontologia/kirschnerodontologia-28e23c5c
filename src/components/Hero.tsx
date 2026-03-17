@@ -36,7 +36,7 @@ const Hero = () => {
     "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
-    <section className="relative min-h-screen bg-primary overflow-hidden flex flex-col">
+    <section className="relative min-h-screen bg-background overflow-hidden flex flex-col pt-10">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 pb-8 text-center">
         <motion.div
@@ -57,13 +57,13 @@ const Hero = () => {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight text-primary-foreground">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight text-foreground">
             Seu sorriso reabilitado por quem tem{" "}
             <span className="text-gold-gradient">35 anos</span> de experiência.
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl text-primary-foreground/60 font-body max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground font-body max-w-2xl mx-auto">
             Implantes, próteses, facetas e harmonização facial — tudo em uma
             clínica especializada no coração de São Paulo.
           </p>
@@ -82,7 +82,7 @@ const Hero = () => {
             </a>
             <a
               href="#tratamentos"
-              className="inline-flex items-center justify-center gap-1 rounded-full border border-primary-foreground/20 px-6 py-4 text-base font-body font-medium text-primary-foreground/80 transition-colors hover:bg-primary-foreground/5"
+              className="inline-flex items-center justify-center gap-1 rounded-full border border-border px-6 py-4 text-base font-body font-medium text-foreground/80 transition-colors hover:bg-muted"
             >
               Ver tratamentos
               <ChevronDown className="h-4 w-4" />
@@ -90,7 +90,7 @@ const Hero = () => {
           </div>
 
           {/* Disclaimer */}
-          <p className="text-sm text-primary-foreground/40 font-body">
+          <p className="text-sm text-muted-foreground font-body">
             *Atendimento particular premium — sem plano de saúde
           </p>
 
@@ -102,11 +102,11 @@ const Hero = () => {
                   key={i}
                   src={`https://i.pravatar.cc/150?img=${i + 10}`}
                   alt=""
-                  className="h-8 w-8 rounded-full border-2 border-primary object-cover"
+                  className="h-8 w-8 rounded-full border-2 border-background object-cover"
                 />
               ))}
             </div>
-            <span className="text-sm text-primary-foreground/50 font-body">
+            <span className="text-sm text-muted-foreground font-body">
               +10.000 pacientes atendidos
             </span>
           </div>
@@ -116,8 +116,8 @@ const Hero = () => {
       {/* Treatment Cards Carousel */}
       <div className="relative w-full overflow-hidden pb-8">
         {/* Gradient Overlays */}
-        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-primary to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-primary to-transparent" />
+        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-background to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-background to-transparent" />
 
         {/* Scrolling Container */}
         <motion.div
