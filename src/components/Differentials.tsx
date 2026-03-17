@@ -28,7 +28,7 @@ const diffs = [
 const Differentials = () => (
   <section className="py-14 bg-background">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-center max-w-lg mx-auto mb-10">
+      <div className="max-w-lg mb-10">
         <span className="text-xs font-body font-medium tracking-widest uppercase text-muted-foreground">
           Diferenciais
         </span>
