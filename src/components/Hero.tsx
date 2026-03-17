@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ChevronDown, ArrowRight } from "lucide-react";
 import heroImg from "@/assets/dr-roger-hero.jpg";
+import logo from "@/assets/logo-kirschner.png";
 
 const treatments = [
   {
@@ -44,10 +45,13 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-3xl mx-auto space-y-6"
         >
+          {/* Logo */}
+          <img src={logo} alt="Roger Kirschner Odontologia e Estética" className="h-20 sm:h-24 mx-auto mb-2" />
+
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5">
-            <span className="h-2 w-2 rounded-full bg-gold animate-pulse" />
-            <span className="text-sm font-body font-medium text-gold">
+          <div className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5">
+            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
+            <span className="text-sm font-body font-medium text-accent">
               CROSP 46410
             </span>
           </div>
