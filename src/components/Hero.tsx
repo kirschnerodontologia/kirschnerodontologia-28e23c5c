@@ -36,7 +36,7 @@ const Hero = () => {
     "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
-    <section className="relative min-h-screen bg-primary overflow-hidden flex flex-col">
+    <section className="relative min-h-screen bg-background overflow-hidden flex flex-col pt-10">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 pb-8 text-center">
         <motion.div
