@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ChevronDown, ArrowRight } from "lucide-react";
 import heroImg from "@/assets/dr-roger-hero.jpg";
+import logo from "@/assets/logo-kirschner.png";
 
 const treatments = [
   {
