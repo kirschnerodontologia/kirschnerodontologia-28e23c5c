@@ -106,7 +106,7 @@ const Hero = () => {
                 />
               ))}
             </div>
-            <span className="text-sm text-primary-foreground/50 font-body">
+            <span className="text-sm text-muted-foreground font-body">
               +10.000 pacientes atendidos
             </span>
           </div>
