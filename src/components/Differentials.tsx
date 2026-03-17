@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen, Cpu, Globe } from "lucide-react";
+import { Award, BookOpen, Cpu, Globe, Heart, Shield, Star } from "lucide-react";
 import clinicImg from "@/assets/clinic-interior.jpg";
 
 const diffs = [
@@ -9,19 +9,19 @@ const diffs = [
     text: "Protocolos desenvolvidos ao longo de décadas e reconhecidos internacionalmente.",
   },
   {
-    icon: BookOpen,
-    title: "Especialização que poucos têm",
-    text: "Doutor e Mestre pela São Leopoldo Mandic, com especializações em Implantodontia, Periodontia, Prótese e Estética Facial.",
-  },
-  {
     icon: Cpu,
     title: "Tecnologia aliada ao olhar clínico",
     text: "Materiais de última geração com o refinamento de quem já tratou milhares de casos complexos.",
   },
   {
-    icon: Globe,
-    title: "Palestrante internacional",
-    text: "Referência no Brasil, Peru, Bolívia e EUA — e ainda assim atende com atenção e tempo.",
+    icon: Heart,
+    title: "Ambiente acolhedor",
+    text: "Para quem tem medo do dentista. Acolhimento que transforma medo em confiança.",
+  },
+  {
+    icon: Shield,
+    title: "Materiais de alto padrão",
+    text: "Marcas certificadas e protocolos personalizados para cada caso.",
   },
 ];
 
@@ -37,29 +37,25 @@ const Differentials = () => (
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-5xl mx-auto items-center">
-        {/* Bullets à esquerda */}
-        <div className="flex flex-col gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 max-w-5xl mx-auto items-stretch">
+        {/* Cards em grid 2x2 à esquerda */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {diffs.map((d, i) => (
             <motion.div
               key={d.title}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="flex gap-4 items-start"
+              transition={{ duration: 0.4, delay: i * 0.08 }}
+              className="relative rounded-lg border border-border bg-background p-5 pl-7 border-l-[3px] border-l-primary/40"
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 border border-primary/20">
-                <d.icon className="h-5 w-5 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-sm font-display font-semibold text-foreground">
-                  {d.title}
-                </h3>
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground font-body">
-                  {d.text}
-                </p>
-              </div>
+              <d.icon className="h-5 w-5 text-muted-foreground mb-3" strokeWidth={1.5} />
+              <h3 className="text-sm font-display font-semibold text-foreground mb-1.5">
+                {d.title}
+              </h3>
+              <p className="text-xs leading-relaxed text-muted-foreground font-body">
+                {d.text}
+              </p>
             </motion.div>
           ))}
         </div>
@@ -70,14 +66,27 @@ const Differentials = () => (
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="relative rounded-2xl overflow-hidden shadow-lg"
+          className="relative rounded-2xl overflow-hidden shadow-lg w-full lg:w-80"
         >
           <img
             src={clinicImg}
             alt="Interior da clínica do Dr. Roger Kirschner"
-            className="w-full h-full object-cover aspect-[3/4] lg:aspect-[4/5]"
+            className="w-full h-full object-cover"
             loading="lazy"
           />
+          {/* Badge Google Reviews */}
+          <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm rounded-xl px-4 py-3 flex items-center gap-3 shadow-md">
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-amber-400/20">
+              <Star className="h-5 w-5 text-amber-500 fill-amber-500" />
+            </div>
+            <div>
+              <p className="text-sm font-display font-bold text-foreground">+100</p>
+              <p className="text-[10px] text-muted-foreground font-body">
+                Avaliações 5 Estrelas
+                <span className="ml-1 opacity-60">by Google • 2025</span>
+              </p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </div>
