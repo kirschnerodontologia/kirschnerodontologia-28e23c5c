@@ -90,7 +90,7 @@ const Hero = () => {
           </div>
 
           {/* Disclaimer */}
-          <p className="text-sm text-primary-foreground/40 font-body">
+          <p className="text-sm text-muted-foreground font-body">
             *Atendimento particular premium — sem plano de saúde
           </p>
 
