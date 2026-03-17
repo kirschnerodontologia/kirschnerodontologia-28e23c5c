@@ -102,7 +102,7 @@ const Hero = () => {
                   key={i}
                   src={`https://i.pravatar.cc/150?img=${i + 10}`}
                   alt=""
-                  className="h-8 w-8 rounded-full border-2 border-primary object-cover"
+                  className="h-8 w-8 rounded-full border-2 border-background object-cover"
                 />
               ))}
             </div>
