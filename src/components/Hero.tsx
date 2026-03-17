@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight text-primary-foreground">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight text-foreground">
             Seu sorriso reabilitado por quem tem{" "}
             <span className="text-gold-gradient">35 anos</span> de experiência.
           </h1>
