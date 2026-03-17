@@ -5,45 +5,44 @@ const Results = () => {
   const whatsappUrl = "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20gratuita.";
 
   return (
-    <section className="py-24 bg-muted">
+    <section className="py-16 bg-muted/50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center max-w-2xl mx-auto"
+          className="text-center max-w-xl mx-auto"
         >
-          <span className="text-sm font-body font-semibold tracking-widest uppercase text-accent">Resultados</span>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-display font-bold text-foreground">
+          <span className="text-xs font-body font-medium tracking-widest uppercase text-accent">Resultados</span>
+          <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground">
             Resultados reais, pacientes reais
           </h2>
-          <p className="mt-4 text-muted-foreground font-body">
+          <p className="mt-2 text-sm text-muted-foreground font-body">
             Cada caso é único. Veja como planejamos e executamos transformações completas.
           </p>
 
-          {/* Placeholder grid for before/after photos */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-8">
             {[1, 2, 3, 4, 5, 6].map((n) => (
               <div
                 key={n}
-                className="aspect-[4/3] rounded-xl bg-card border border-border flex items-center justify-center"
+                className="aspect-[4/3] rounded-lg bg-card border border-border flex items-center justify-center"
               >
-                <p className="text-xs text-muted-foreground font-body">Antes / Depois {n}</p>
+                <p className="text-[10px] text-muted-foreground font-body">Antes / Depois {n}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-12">
-            <p className="text-muted-foreground font-body mb-4">
+          <div className="mt-8">
+            <p className="text-sm text-muted-foreground font-body mb-3">
               Quer saber o que é possível no seu caso?
             </p>
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-cta px-8 py-4 text-base font-body font-semibold text-cta-foreground shadow-lg shadow-cta/25 transition-all hover:brightness-110"
+              className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
             >
-              <MessageCircle className="h-5 w-5" />
+              <MessageCircle className="h-4 w-4" />
               Agendar avaliação gratuita
             </a>
           </div>
