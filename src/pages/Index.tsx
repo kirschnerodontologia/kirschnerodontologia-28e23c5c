@@ -4,6 +4,7 @@ import Treatments from "@/components/Treatments";
 import Differentials from "@/components/Differentials";
 import About from "@/components/About";
 import Results from "@/components/Results";
+import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import FloatingCTA from "@/components/FloatingCTA";
 import CookieConsent from "@/components/CookieConsent";
