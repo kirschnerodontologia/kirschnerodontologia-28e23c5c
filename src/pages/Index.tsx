@@ -48,6 +48,7 @@ const Index = () => (
       <Differentials />
       <About />
       <Results />
+      <FAQ />
       <Contact />
     </main>
     <FloatingCTA />
