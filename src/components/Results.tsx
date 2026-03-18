@@ -10,7 +10,7 @@ import result6 from "@/assets/result-6.jpg";
 const photos = [result1, result2, result3, result4, result5, result6];
 
 const Results = () => {
-  const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.";
+  const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
   return (
     <section className="py-16 bg-muted/50">
