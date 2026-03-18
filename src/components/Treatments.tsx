@@ -57,7 +57,7 @@ const item = {
 
 const Treatments = () => {
   const whatsappUrl =
-    "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação.";
+    "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <section id="tratamentos" className="py-16 bg-secondary/20">
@@ -102,14 +102,6 @@ const Treatments = () => {
                 <p className="mt-1 text-xs text-muted-foreground font-body leading-relaxed flex-1">
                   {t.desc}
                 </p>
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center justify-center gap-1.5 rounded-full bg-accent px-4 py-1.5 text-xs font-body font-medium text-accent-foreground transition-all hover:brightness-110 self-start"
-                >
-                  Consultar disponibilidade
-                </a>
               </div>
             </motion.div>
           ))}
@@ -123,7 +115,7 @@ const Treatments = () => {
           className="mt-10 text-center"
         >
           <p className="text-sm text-muted-foreground font-body mb-3">
-            Não sabe por onde começar? Agende uma avaliação personalizada.
+            Não sabe por onde começar? Agende uma consulta personalizada.
           </p>
           <a
             href={whatsappUrl}
