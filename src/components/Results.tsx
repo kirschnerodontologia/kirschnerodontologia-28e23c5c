@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import result1 from "@/assets/result-1.jpg";
-import result2 from "@/assets/result-2.jpg";
-import result3 from "@/assets/result-3.jpg";
-import result4 from "@/assets/result-4.jpg";
-import result5 from "@/assets/result-5.jpg";
-import result6 from "@/assets/result-6.jpg";
 
-const photos = [result1, result2, result3, result4, result5, result6];
+const photos = [
+  "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=600&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=600&fit=crop",
+];
 
 const Results = () => {
   const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
