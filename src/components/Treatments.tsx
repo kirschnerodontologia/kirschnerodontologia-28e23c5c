@@ -57,7 +57,7 @@ const item = {
 
 const Treatments = () => {
   const whatsappUrl =
-    "https://wa.me/5511945009425?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta.";
+    "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
   return (
     <section id="tratamentos" className="py-16 bg-secondary/20">
