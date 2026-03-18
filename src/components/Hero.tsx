@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-1.5 rounded-full border border-accent/20 bg-accent/5 px-3 py-1">
             <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
             <span className="text-xs font-body font-medium text-accent">
-              CROSP 46410
+              Odontologia & Estética Facial
             </span>
           </div>
 

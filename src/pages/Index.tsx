@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Results from "@/components/Results";
 import Contact from "@/components/Contact";
 import FloatingCTA from "@/components/FloatingCTA";
+import CookieConsent from "@/components/CookieConsent";
 import { Helmet } from "react-helmet-async";
 
 const schemaMarkup = {
@@ -49,6 +50,7 @@ const Index = () => (
       <Contact />
     </main>
     <FloatingCTA />
+    <CookieConsent />
   </>
 );
 
