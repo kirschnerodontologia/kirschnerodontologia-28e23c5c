@@ -22,7 +22,7 @@ const Contact = () => {
             className="space-y-5"
           >
             {[
-              { icon: MapPin, label: "Endereço", value: "Rua Haddock Lobo, 1307 — Conj. 14, 1º andar, São Paulo – SP" },
+              { icon: MapPin, label: "Endereço", value: "Rua Haddock Lobo, 1307, Conj. 14, 1º andar, São Paulo, SP" },
               { icon: Clock, label: "Horário", value: "Segunda a sexta · 08h00 às 18h00" },
               { icon: Phone, label: "WhatsApp", value: "(11) 94500-9425", href: whatsappUrl },
               { icon: Mail, label: "E-mail", value: "kirschnerodontologia@gmail.com", href: "mailto:kirschnerodontologia@gmail.com" },

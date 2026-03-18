@@ -11,7 +11,7 @@ import result6 from "@/assets/result-6.jpg";
 const photos = [result1, result2, result3, result4, result5, result6];
 
 const Results = () => {
-  const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita.";
+  const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <section className="py-16 bg-muted/50">
@@ -67,7 +67,7 @@ const Results = () => {
             className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
           >
             <MessageCircle className="h-4 w-4" />
-            Agendar avaliação gratuita
+            Agendar consulta
           </a>
         </motion.div>
       </div>

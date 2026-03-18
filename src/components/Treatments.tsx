@@ -36,7 +36,7 @@ const treatments = [
   {
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=700&fit=crop",
     name: "Endodontia",
-    desc: "Canal sem dor — salve seu dente com conforto.",
+    desc: "Canal sem dor. Salve seu dente com conforto.",
   },
   {
     image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=600&h=700&fit=crop",

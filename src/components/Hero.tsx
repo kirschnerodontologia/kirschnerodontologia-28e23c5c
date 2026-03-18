@@ -58,7 +58,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-sm sm:text-base text-muted-foreground font-body max-w-lg mx-auto leading-relaxed">
-            Implantes, próteses, facetas e harmonização facial — tudo em uma
+            Implantes, próteses, facetas e harmonização facial. Tudo em uma
             clínica especializada no coração de São Paulo.
           </p>
 
@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
 
           <p className="text-xs text-muted-foreground/70 font-body">
-            *Atendimento particular premium — sem plano de saúde
+            *Atendimento particular premium, sem plano de saúde
           </p>
 
           <div className="flex items-center justify-center gap-2 pt-1">
