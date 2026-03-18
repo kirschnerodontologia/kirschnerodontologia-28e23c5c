@@ -16,7 +16,7 @@ const About = () => (
         <span className="inline-block text-[10px] font-body font-medium tracking-widest uppercase text-muted-foreground border border-border rounded-full px-3 py-1 mb-3">
           Quem Cuida de Você
         </span>
-        <h2 className="text-lg sm:text-xl font-display font-bold text-foreground leading-snug">
+        <h2 className="text-lg sm:text-xl font-display font-bold text-foreground leading-snug uppercase">
           CONHEÇA O PROFISSIONAL POR TRÁS{" "}
           <span className="text-gold-gradient">DO SEU NOVO SORRISO.</span>
         </h2>

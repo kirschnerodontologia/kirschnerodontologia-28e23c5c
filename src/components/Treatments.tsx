@@ -66,8 +66,8 @@ const Treatments = () => {
           <span className="inline-block text-xs font-body font-medium tracking-widest uppercase text-accent border border-accent/20 rounded-full px-3 py-1 mb-3">
             Nossos Tratamentos
           </span>
-          <h2 className="text-xl sm:text-2xl font-display font-bold text-foreground leading-snug">
-            Cada área, um especialista dedicado.
+          <h2 className="text-xl sm:text-2xl font-display font-bold text-foreground leading-snug uppercase">
+            CADA ÁREA, UM ESPECIALISTA DEDICADO.
           </h2>
           <p className="mt-2 text-sm text-muted-foreground font-body max-w-md mx-auto">
             Da prevenção à reabilitação completa, com profissionais dedicados a cada especialidade.

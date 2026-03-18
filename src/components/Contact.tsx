@@ -9,8 +9,8 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-lg mx-auto mb-10">
           <span className="text-xs font-body font-medium tracking-widest uppercase text-accent">Contato</span>
-          <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground">
-            Venha nos visitar
+          <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground uppercase">
+            VENHA NOS VISITAR
           </h2>
         </div>
 
