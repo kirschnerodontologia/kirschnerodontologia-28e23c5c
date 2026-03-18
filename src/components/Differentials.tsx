@@ -32,8 +32,8 @@ const Differentials = () => (
         <span className="text-xs font-body font-medium tracking-widest uppercase text-muted-foreground">
           Diferenciais
         </span>
-        <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground leading-snug">
-          Por que pacientes escolhem o Dr. Roger há mais de três décadas?
+        <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground leading-snug uppercase">
+          POR QUE PACIENTES ESCOLHEM O DR. ROGER HÁ MAIS DE TRÊS DÉCADAS?
         </h2>
       </div>
 

@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
-const photos = [
-  "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
-];
+import result1 from "@/assets/result-1.jpg";
+import result2 from "@/assets/result-2.jpg";
+import result3 from "@/assets/result-3.jpg";
+import result4 from "@/assets/result-4.jpg";
+import result5 from "@/assets/result-5.jpg";
+import result6 from "@/assets/result-6.jpg";
+
+const photos = [result1, result2, result3, result4, result5, result6];
 
 const Results = () => {
   const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.";
@@ -23,8 +23,8 @@ const Results = () => {
           className="text-center max-w-3xl mx-auto"
         >
           <span className="text-xs font-body font-medium tracking-widest uppercase text-accent">Resultados</span>
-          <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground">
-            Resultados reais, pacientes reais
+          <h2 className="mt-2 text-xl sm:text-2xl font-display font-bold text-foreground uppercase">
+            RESULTADOS REAIS, PACIENTES REAIS
           </h2>
           <p className="mt-2 text-sm text-muted-foreground font-body">
             Cada caso é único. Veja como planejamos e executamos transformações completas.
