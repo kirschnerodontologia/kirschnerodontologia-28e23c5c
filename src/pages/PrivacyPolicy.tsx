@@ -23,7 +23,7 @@ const PrivacyPolicy = () => (
           <p>Última atualização: 18 de março de 2026</p>
 
           <p>
-            A clínica <strong>Dr. Roger Kirschner Odontologia e Estética</strong> respeita a sua privacidade e está comprometida com a proteção dos seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
+            A clínica <strong>Dr. Roger Kirschner Odontologia e Estética</strong> respeita a sua privacidade e está comprometida com a proteção dos seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).
           </p>
 
           <h2>1. Dados coletados</h2>
