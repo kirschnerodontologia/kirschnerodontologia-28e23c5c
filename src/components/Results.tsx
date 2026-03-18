@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import result1 from "@/assets/result-1.jpg";
-import result2 from "@/assets/result-2.jpg";
-import result3 from "@/assets/result-3.jpg";
-import result4 from "@/assets/result-4.jpg";
-import result5 from "@/assets/result-5.jpg";
-import result6 from "@/assets/result-6.jpg";
 
-const photos = [result1, result2, result3, result4, result5, result6];
+const photos = [
+  "/result-1.jpg",
+  "/result-2.jpg",
+  "/result-3.jpg",
+  "/result-4.jpg",
+  "/result-5.jpg",
+  "/result-6.jpg",
+];
 
 const Results = () => {
   const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
