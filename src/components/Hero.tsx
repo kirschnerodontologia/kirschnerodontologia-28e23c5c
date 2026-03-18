@@ -62,7 +62,7 @@ const Hero = () => {
             clínica especializada no coração de São Paulo.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 justify-center pt-1">
+          <div className="flex justify-center pt-1">
             <a
               href={whatsappUrl}
               target="_blank"
@@ -72,13 +72,6 @@ const Hero = () => {
               <MessageCircle className="h-4 w-4" />
               Agendar consulta pelo WhatsApp
               <ArrowRight className="h-3.5 w-3.5" />
-            </a>
-            <a
-              href="#tratamentos"
-              className="inline-flex items-center justify-center gap-1 rounded-full border border-border px-5 py-2.5 text-sm font-body font-medium text-foreground/70 transition-colors hover:bg-muted"
-            >
-              Ver tratamentos
-              <ChevronDown className="h-3.5 w-3.5" />
             </a>
           </div>
 

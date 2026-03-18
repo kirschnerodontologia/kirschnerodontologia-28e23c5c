@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Consigo parcelar meu tratamento?",
     answer:
-      "Sim! Oferecemos diversas formas de pagamento, incluindo parcelamento no cartão de crédito. Consulte as condições na sua avaliação.",
+      "Sim! Oferecemos diversas formas de pagamento, incluindo parcelamento no cartão de crédito. Consulte as condições na sua consulta.",
   },
   {
     question: "O procedimento dói?",
@@ -18,29 +18,34 @@ const faqs = [
       "Utilizamos técnicas modernas de anestesia e sedação para garantir o máximo conforto. A maioria dos pacientes relata pouca ou nenhuma dor.",
   },
   {
-    question: "Todo mundo pode fazer implante?",
+    question: "Qual é o horário de funcionamento da clínica?",
     answer:
-      "A maioria dos pacientes adultos pode receber implantes. Em casos específicos, pode ser necessário um tratamento prévio. Isso é avaliado na consulta.",
+      "Atendemos de segunda a sexta-feira, das 08h00 às 18h00. Agende pelo WhatsApp para garantir o melhor horário.",
   },
   {
-    question: "O que é a carga imediata e eu posso fazer?",
+    question: "Vocês atendem por plano de saúde?",
     answer:
-      "Carga imediata é a colocação do dente provisório no mesmo dia do implante. Nem todos os casos permitem, mas avaliamos cada situação individualmente.",
+      "Nosso atendimento é particular premium. Trabalhamos com foco total na qualidade e personalização de cada caso.",
   },
   {
-    question: "Quanto tempo dura um implante?",
+    question: "Preciso de uma consulta inicial antes do tratamento?",
     answer:
-      "Com os cuidados adequados de higiene e acompanhamento, um implante pode durar a vida toda. Fazemos acompanhamento periódico para garantir a longevidade.",
+      "Sim. Realizamos uma consulta de planejamento para entender seu caso, apresentar as opções e alinhar expectativas antes de qualquer procedimento.",
   },
   {
-    question: "O implante fica igual ao dente natural?",
+    question: "A clínica oferece estacionamento?",
     answer:
-      "Sim. Trabalhamos com materiais de alta qualidade para que o resultado seja o mais natural possível, tanto em estética quanto em funcionalidade.",
+      "A região conta com diversas opções de estacionamento próximas ao consultório, com fácil acesso.",
   },
   {
-    question: "Quanto tempo leva o tratamento completo?",
+    question: "Quanto tempo dura um tratamento completo?",
     answer:
       "Depende do caso. Tratamentos simples podem levar semanas, enquanto reabilitações completas podem levar alguns meses. Tudo é explicado no planejamento.",
+  },
+  {
+    question: "A clínica atende emergências?",
+    answer:
+      "Sim, atendemos urgências odontológicas. Entre em contato pelo WhatsApp para avaliarmos a situação e encaixarmos seu atendimento o mais rápido possível.",
   },
 ];
 
