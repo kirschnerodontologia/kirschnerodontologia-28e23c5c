@@ -1,18 +1,14 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
-import before1 from "@/assets/result-before-1.jpg";
-import before2 from "@/assets/result-before-2.jpg";
-import before3 from "@/assets/result-before-3.jpg";
-import after1 from "@/assets/result-after-1.jpg";
-import after2 from "@/assets/result-after-2.jpg";
-import after3 from "@/assets/result-after-3.jpg";
+import result1 from "@/assets/result-1.jpg";
+import result2 from "@/assets/result-2.jpg";
+import result3 from "@/assets/result-3.jpg";
+import result4 from "@/assets/result-4.jpg";
+import result5 from "@/assets/result-5.jpg";
+import result6 from "@/assets/result-6.jpg";
 
-const cases = [
-  { before: before1, after: after1, label: "Harmonização Facial" },
-  { before: before2, after: after2, label: "Harmonização Facial" },
-  { before: before3, after: after3, label: "Harmonização Facial" },
-];
+const photos = [result1, result2, result3, result4, result5, result6];
 
 const Results = () => {
   const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita.";
@@ -33,62 +29,46 @@ const Results = () => {
           <p className="mt-2 text-sm text-muted-foreground font-body">
             Cada caso é único. Veja como planejamos e executamos transformações completas.
           </p>
+        </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-            {cases.map((c, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="rounded-xl overflow-hidden border border-border bg-card shadow-sm"
-              >
-                <div className="grid grid-cols-2">
-                  <div className="relative">
-                    <img
-                      src={c.before}
-                      alt={`Antes - ${c.label}`}
-                      className="w-full aspect-[3/4] object-cover"
-                      loading="lazy"
-                    />
-                    <span className="absolute bottom-2 left-2 bg-background/80 backdrop-blur-sm text-[10px] font-body font-semibold text-foreground px-2 py-0.5 rounded">
-                      Antes
-                    </span>
-                  </div>
-                  <div className="relative">
-                    <img
-                      src={c.after}
-                      alt={`Depois - ${c.label}`}
-                      className="w-full aspect-[3/4] object-cover"
-                      loading="lazy"
-                    />
-                    <span className="absolute bottom-2 right-2 bg-accent/90 backdrop-blur-sm text-[10px] font-body font-semibold text-accent-foreground px-2 py-0.5 rounded">
-                      Depois
-                    </span>
-                  </div>
-                </div>
-                <div className="px-3 py-2.5">
-                  <p className="text-xs font-display font-semibold text-foreground">{c.label}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          <div className="mt-10">
-            <p className="text-sm text-muted-foreground font-body mb-3">
-              Quer saber o que é possível no seu caso?
-            </p>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-10 max-w-4xl mx-auto">
+          {photos.map((src, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.07 }}
+              className="rounded-xl overflow-hidden aspect-square"
             >
-              <MessageCircle className="h-4 w-4" />
-              Agendar avaliação gratuita
-            </a>
-          </div>
+              <img
+                src={src}
+                alt={`Resultado de tratamento ${i + 1}`}
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-10"
+        >
+          <p className="text-sm text-muted-foreground font-body mb-3">
+            Quer saber o que é possível no seu caso?
+          </p>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
+          >
+            <MessageCircle className="h-4 w-4" />
+            Agendar avaliação gratuita
+          </a>
         </motion.div>
       </div>
     </section>
