@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, ChevronDown, ArrowRight } from "lucide-react";
+import { MessageCircle, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo-kirschner.png";
 
 const treatments = [
