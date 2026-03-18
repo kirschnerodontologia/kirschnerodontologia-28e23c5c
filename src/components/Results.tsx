@@ -67,7 +67,7 @@ const Results = () => {
             className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
           >
             <MessageCircle className="h-4 w-4" />
-            Agendar avaliação gratuita
+            Agendar consulta
           </a>
         </motion.div>
       </div>

@@ -55,7 +55,7 @@ const PrivacyPolicy = () => (
           <p>
             <strong>Dr. Roger Kirschner</strong><br />
             CROSP 46410<br />
-            Rua Haddock Lobo, 1307 — Conjunto 14, 1º andar — São Paulo/SP<br />
+            Rua Haddock Lobo, 1307, Conjunto 14, 1º andar, São Paulo/SP<br />
             E-mail: kirschnerodontologia@gmail.com
           </p>
         </div>

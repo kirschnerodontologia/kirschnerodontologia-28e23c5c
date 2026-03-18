@@ -58,7 +58,7 @@ const About = () => (
 
           <div className="space-y-3 text-muted-foreground font-body text-xs leading-relaxed">
             <p>
-              Doutor em Clínicas Odontológicas pela São Leopoldo Mandic — Campinas, Mestre e Especialista em Prótese Dentária, Especialista em Periodontia e Implantodontia, MBA em Visagismo e Pós-Graduado em Estética Facial pelo IBECO.
+              Doutor em Clínicas Odontológicas pela São Leopoldo Mandic, Campinas. Mestre e Especialista em Prótese Dentária, Especialista em Periodontia e Implantodontia, MBA em Visagismo e Pós-Graduado em Estética Facial pelo IBECO.
             </p>
             <p>
               Referência nacional em Reabilitação Oral e Harmonização Orofacial, com mais de três décadas de atuação clínica em São Paulo, conduzindo os atendimentos com técnica apurada, atenção aos detalhes e um cuidado diferenciado em cada procedimento. ✨

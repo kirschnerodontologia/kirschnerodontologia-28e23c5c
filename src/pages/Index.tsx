@@ -19,7 +19,7 @@ const schemaMarkup = {
   email: "kirschnerodontologia@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rua Haddock Lobo, 1307 — Conjunto 14, 1º andar",
+    streetAddress: "Rua Haddock Lobo, 1307, Conjunto 14, 1º andar",
     addressLocality: "São Paulo",
     addressRegion: "SP",
     addressCountry: "BR",

@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
 
           <p className="text-xs text-muted-foreground/70 font-body">
-            *Atendimento particular premium — sem plano de saúde
+            *Atendimento particular premium, sem plano de saúde
           </p>
 
           <div className="flex items-center justify-center gap-2 pt-1">
