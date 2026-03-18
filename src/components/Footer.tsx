@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & About */}
           <div className="space-y-3">
-            <img src={logo} alt="Dr. Roger Kirschner" className="h-10 brightness-0 invert" />
             <p className="text-xs leading-relaxed font-body text-primary-foreground/60">
               Clínica especializada em reabilitação oral, implantes, próteses, estética dental e harmonização orofacial.
             </p>
