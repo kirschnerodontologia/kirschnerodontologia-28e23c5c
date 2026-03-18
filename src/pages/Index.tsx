@@ -50,6 +50,7 @@ const Index = () => (
       <Contact />
     </main>
     <FloatingCTA />
+    <CookieConsent />
   </>
 );
 
