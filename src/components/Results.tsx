@@ -11,7 +11,7 @@ import result6 from "@/assets/result-6.jpg";
 const photos = [result1, result2, result3, result4, result5, result6];
 
 const Results = () => {
-  const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita.";
+  const whatsappUrl = "https://wa.me/5511945009425?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <section className="py-16 bg-muted/50">
