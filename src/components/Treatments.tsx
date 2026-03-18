@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
+import implantImg from "@/assets/implante-dentario.jpg";
 
 const treatments = [
   {
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&h=700&fit=crop",
+    image: implantImg,
     name: "Implante Dental",
     desc: "Substitua dentes perdidos com naturalidade e segurança.",
   },
