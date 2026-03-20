@@ -38,7 +38,7 @@ const Results = () => {
           </p>
         </motion.div>
 
-        <div className="mt-10 max-w-lg mx-auto">
+        <div className="mt-10 max-w-xs mx-auto">
           <Carousel className="w-full" opts={{ loop: true }}>
             <CarouselContent>
               {photos.map((src, i) => (
