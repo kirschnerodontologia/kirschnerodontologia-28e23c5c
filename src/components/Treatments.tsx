@@ -14,7 +14,7 @@ const treatments = [
     desc: "Protocolo completo para total reabilitação oral.",
   },
   {
-    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=700&fit=crop",
+    image: "/lentes-facetas.jpg",
     name: "Lentes & Facetas",
     desc: "Transformação estética em poucos dias.",
   },
