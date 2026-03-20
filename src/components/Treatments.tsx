@@ -39,7 +39,7 @@ const treatments = [
     desc: "Canal sem dor. Salve seu dente com conforto.",
   },
   {
-    image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=600&h=700&fit=crop",
+    image: "/cirurgia-oral.jpg",
     name: "Cirurgia Oral",
     desc: "Extrações e cirurgias com segurança e planejamento.",
   },
