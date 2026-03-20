@@ -10,7 +10,7 @@ const treatments = [
   },
   {
     image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=700&fit=crop",
-    name: "Prótese sobre Implante",
+    name: "Próteses",
     desc: "Protocolo completo para total reabilitação oral.",
   },
   {
