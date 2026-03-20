@@ -19,7 +19,7 @@ const treatments = [
     desc: "Transformação estética em poucos dias.",
   },
   {
-    image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=700&fit=crop",
+    image: "/harmonizacao.png",
     name: "Harmonização Orofacial",
     desc: "Procedimentos minimamente invasivos para realçar sua beleza.",
   },
