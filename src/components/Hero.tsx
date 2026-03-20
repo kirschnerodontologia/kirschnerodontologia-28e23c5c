@@ -95,27 +95,18 @@ const Hero = () => {
             },
           }}
         >
-          {[...treatments, ...treatments].map((t, index) => (
+          {[...carouselImages, ...carouselImages].map((src, index) => (
             <a
               key={index}
               href="#tratamentos"
               className="relative flex-shrink-0 w-40 h-48 rounded-xl overflow-hidden group cursor-pointer"
             >
               <img
-                src={t.image}
-                alt={t.title}
+                src={src}
+                alt={`Clínica Kirschner ${index + 1}`}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-3">
-                <span className="text-[9px] font-body font-semibold tracking-widest text-accent-foreground/80">
-                  {t.category}
-                </span>
-                <p className="text-xs font-display font-semibold text-white mt-0.5">
-                  {t.title}
-                </p>
-              </div>
             </a>
           ))}
         </motion.div>
