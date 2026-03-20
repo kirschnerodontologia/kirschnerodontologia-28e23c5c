@@ -2,32 +2,13 @@ import { motion } from "framer-motion";
 import { MessageCircle, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo-kirschner.png";
 
-const treatments = [
-  {
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=500&fit=crop",
-    category: "REABILITAÇÃO",
-    title: "Implante Dental",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=500&fit=crop",
-    category: "ESTÉTICA",
-    title: "Lentes & Facetas",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=400&h=500&fit=crop",
-    category: "PROTOCOLO",
-    title: "Prótese sobre Implante",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400&h=500&fit=crop",
-    category: "FACIAL",
-    title: "Harmonização Orofacial",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=500&fit=crop",
-    category: "CLAREAMENTO",
-    title: "Clareamento Dental",
-  },
+const carouselImages = [
+  "/hero-1.jpg",
+  "/hero-2.jpg",
+  "/hero-3.jpg",
+  "/hero-4.jpg",
+  "/hero-5.jpg",
+  "/hero-6.jpg",
 ];
 
 const Hero = () => {
