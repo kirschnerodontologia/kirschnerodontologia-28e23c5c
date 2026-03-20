@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen, Cpu, Globe, Heart, Shield, Star } from "lucide-react";
+import { Award, Cpu, Heart, Shield } from "lucide-react";
 const clinicImg = "/clinic-room.jpg";
 
 const diffs = [
