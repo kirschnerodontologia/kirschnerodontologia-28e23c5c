@@ -34,7 +34,7 @@ const treatments = [
     desc: "Aparelho convencional ou alinhadores invisíveis.",
   },
   {
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=700&fit=crop",
+    image: "/endodontia.jpg",
     name: "Endodontia",
     desc: "Canal sem dor. Salve seu dente com conforto.",
   },
