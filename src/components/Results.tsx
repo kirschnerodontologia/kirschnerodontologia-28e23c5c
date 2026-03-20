@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const photos = [
-  "/result-1.jpg",
-  "/result-2.jpg",
-  "/result-3.jpg",
-  "/result-4.jpg",
-  "/result-5.jpg",
-  "/result-6.jpg",
   "/result-7.png",
   "/result-8.png",
   "/result-9.png",
@@ -37,24 +38,25 @@ const Results = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-10 max-w-4xl mx-auto">
-          {photos.map((src, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.07 }}
-              className="rounded-xl overflow-hidden aspect-square"
-            >
-              <img
-                src={src}
-                alt={`Resultado de tratamento ${i + 1}`}
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </motion.div>
-          ))}
+        <div className="mt-10 max-w-lg mx-auto">
+          <Carousel className="w-full" opts={{ loop: true }}>
+            <CarouselContent>
+              {photos.map((src, i) => (
+                <CarouselItem key={i}>
+                  <div className="rounded-xl overflow-hidden aspect-[3/4]">
+                    <img
+                      src={src}
+                      alt={`Resultado de tratamento ${i + 1}`}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-2" />
+            <CarouselNext className="right-2" />
+          </Carousel>
         </div>
 
         <motion.div
