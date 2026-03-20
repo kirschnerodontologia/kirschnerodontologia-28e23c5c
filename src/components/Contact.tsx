@@ -55,15 +55,13 @@ const Contact = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-3">
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-cta px-5 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
+              <button
+                onClick={() => navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`)}
+                className="inline-flex items-center gap-2 rounded-full bg-cta px-5 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 cursor-pointer"
               >
                 <MessageCircle className="h-4 w-4" />
                 Chamar no WhatsApp
-              </a>
+              </button>
               <a
                 href={phoneUrl}
                 className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-body font-medium text-foreground transition-colors hover:bg-muted"
