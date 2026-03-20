@@ -13,6 +13,7 @@ const carouselImages = [
 ];
 
 const Hero = () => {
+  const navigate = useNavigate();
   const whatsappUrl =
     "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
