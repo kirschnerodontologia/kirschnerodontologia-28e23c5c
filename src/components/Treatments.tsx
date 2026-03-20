@@ -29,7 +29,7 @@ const treatments = [
     desc: "Dentes mais brancos com segurança e acompanhamento.",
   },
   {
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=700&fit=crop",
+    image: "/ortodontia.png",
     name: "Ortodontia",
     desc: "Aparelho convencional ou alinhadores invisíveis.",
   },
