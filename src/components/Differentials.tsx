@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen, Cpu, Globe, Heart, Shield, Star } from "lucide-react";
+import { Award, Cpu, Heart, Shield } from "lucide-react";
 const clinicImg = "/clinic-room.jpg";
 
 const diffs = [
@@ -74,19 +74,6 @@ const Differentials = () => (
             className="w-full h-full object-cover"
             loading="lazy"
           />
-          {/* Badge Google Reviews */}
-          <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm rounded-xl px-4 py-3 flex items-center gap-3 shadow-md">
-            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-amber-400/20">
-              <Star className="h-5 w-5 text-amber-500 fill-amber-500" />
-            </div>
-            <div>
-              <p className="text-sm font-display font-bold text-foreground">+100</p>
-              <p className="text-[10px] text-muted-foreground font-body">
-                Avaliações 5 Estrelas
-                <span className="ml-1 opacity-60">by Google • 2025</span>
-              </p>
-            </div>
-          </div>
         </motion.div>
       </div>
     </div>

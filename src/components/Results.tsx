@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const photos = [
   "/result-1.jpg",
@@ -10,8 +11,10 @@ const photos = [
   "/result-6.jpg",
 ];
 
+const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
+
 const Results = () => {
-  const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
+  const navigate = useNavigate();
 
   return (
     <section className="py-16 bg-muted/50">
@@ -60,15 +63,13 @@ const Results = () => {
           <p className="text-sm text-muted-foreground font-body mb-3">
             Quer saber o que é possível no seu caso?
           </p>
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110"
+          <button
+            onClick={() => navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`)}
+            className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 cursor-pointer"
           >
             <MessageCircle className="h-4 w-4" />
             Agendar consulta
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>
