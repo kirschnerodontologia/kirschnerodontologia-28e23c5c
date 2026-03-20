@@ -9,7 +9,7 @@ const treatments = [
     desc: "Substitua dentes perdidos com naturalidade e segurança.",
   },
   {
-    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=700&fit=crop",
+    image: "/protese.jpg",
     name: "Próteses",
     desc: "Protocolo completo para total reabilitação oral.",
   },
