@@ -24,7 +24,7 @@ const treatments = [
     desc: "Procedimentos minimamente invasivos para realçar sua beleza.",
   },
   {
-    image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&h=700&fit=crop",
+    image: "/clareamento.jpg",
     name: "Clareamento Dental",
     desc: "Dentes mais brancos com segurança e acompanhamento.",
   },
