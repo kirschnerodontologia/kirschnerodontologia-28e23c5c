@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { MapPin, Clock, Phone, MessageCircle, AlertTriangle, Navigation } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const navigate = useNavigate();
   const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
   const phoneUrl = "tel:+5511945009425";
   const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Rua+Haddock+Lobo+1307+São+Paulo+SP";
