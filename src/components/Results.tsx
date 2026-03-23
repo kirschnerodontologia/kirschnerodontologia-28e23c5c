@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/carousel";
 
 const photos = [
-  "/result-7.jpg",
-  "/result-8.jpg",
-  "/result-9.jpg",
+  "/result-7.png",
+  "/result-8.png",
+  "/result-9.png",
 ];
 
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
