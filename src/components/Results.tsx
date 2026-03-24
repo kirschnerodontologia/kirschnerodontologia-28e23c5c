@@ -8,11 +8,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import result1 from "@/assets/results/result-1.png";
-import result2 from "@/assets/results/result-2.png";
-import result3 from "@/assets/results/result-3.png";
 
-const photos = [result1, result2, result3];
+const photos = [
+  "/result-1.png",
+  "/result-2.png",
+  "/result-3.png",
+];
 
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
