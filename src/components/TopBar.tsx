@@ -2,7 +2,7 @@ import { Phone } from "lucide-react";
 
 const TopBar = () => (
   <div className="fixed top-0 left-0 right-0 z-50 bg-primary text-primary-foreground">
-    <div className="container mx-auto flex items-center justify-between px-4 py-1.5 text-xs font-body">
+    <div className="container mx-auto flex items-center justify-between px-3 sm:px-4 py-1.5 text-[10px] sm:text-xs font-body">
       <span className="text-primary-foreground/70">
         Atendimento na região de São Paulo – SP
       </span>
