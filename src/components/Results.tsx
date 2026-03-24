@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, ChevronLeft, ChevronRight } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import {
   Carousel,
@@ -8,12 +8,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import result1 from "@/assets/results/result-1.png";
+import result2 from "@/assets/results/result-2.png";
+import result3 from "@/assets/results/result-3.png";
 
-const photos = [
-  "/result-7.png",
-  "/result-8.png",
-  "/result-9.png",
-];
+const photos = [result1, result2, result3];
 
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
