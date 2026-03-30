@@ -64,13 +64,14 @@ const Results = () => {
           <p className="text-sm text-muted-foreground font-body mb-3">
             Quer saber o que é possível no seu caso?
           </p>
-          <button
-            onClick={() => navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`)}
+          <a
+            href={whatsappUrl}
+            onClick={(e) => { e.preventDefault(); navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`); }}
             className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 cursor-pointer"
           >
             <MessageCircle className="h-4 w-4" />
             Agendar consulta
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

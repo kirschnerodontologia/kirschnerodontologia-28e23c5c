@@ -46,14 +46,15 @@ const Hero = () => {
           </p>
 
           <div className="flex justify-center pt-1">
-            <button
-              onClick={() => navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`)}
+            <a
+              href={whatsappUrl}
+              onClick={(e) => { e.preventDefault(); navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`); }}
               className="inline-flex items-center justify-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 hover:shadow-lg hover:shadow-cta/25 cursor-pointer"
             >
               <MessageCircle className="h-4 w-4" />
               Agendar consulta pelo WhatsApp
               <ArrowRight className="h-3.5 w-3.5" />
-            </button>
+            </a>
           </div>
 
           <p className="text-xs text-muted-foreground/70 font-body">
