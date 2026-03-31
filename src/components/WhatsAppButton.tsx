@@ -1,18 +1,11 @@
-import { useNavigate } from "react-router-dom";
-
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
 const WhatsAppButton = () => {
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`);
-  };
-
   return (
     <a
       href={whatsappUrl}
-      onClick={(e) => { e.preventDefault(); handleClick(); }}
+      target="_blank"
+      rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center h-14 w-14 rounded-full shadow-lg transition-all hover:scale-105 animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] cursor-pointer"
       style={{ backgroundColor: "#25D366" }}
       aria-label="Falar pelo WhatsApp"

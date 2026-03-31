@@ -21,7 +21,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
-            <Route path="/redirect" element={<Redirect />} />
+            
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
