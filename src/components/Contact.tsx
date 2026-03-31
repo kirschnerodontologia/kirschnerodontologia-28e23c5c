@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Clock, Phone, MessageCircle, AlertTriangle, Navigation } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 
 const Contact = () => {
   const navigate = useNavigate();
