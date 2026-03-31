@@ -48,7 +48,7 @@ const Index = () => (
       <Treatments />
       <Differentials />
       <About />
-      <Results />
+      {/* <Results /> */}
       <FAQ />
       <Contact />
     </main>
