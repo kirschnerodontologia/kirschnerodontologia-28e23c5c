@@ -14,7 +14,7 @@ const photos = ["/result-1.png", "/result-2.png", "/result-3.png"];
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
 const Results = () => {
-  const navigate = useNavigate();
+  
 
   return (
     <section className="py-16 bg-muted/50">
