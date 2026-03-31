@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ArrowRight } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 import logo from "@/assets/logo-kirschner.png";
 
 const carouselImages = [
