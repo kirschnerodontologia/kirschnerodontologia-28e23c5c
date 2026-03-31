@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import Redirect from "./pages/Redirect.tsx";
+
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 
 const queryClient = new QueryClient();
@@ -21,7 +21,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
-            <Route path="/redirect" element={<Redirect />} />
+            
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

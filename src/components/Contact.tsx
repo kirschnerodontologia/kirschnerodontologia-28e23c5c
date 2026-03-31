@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { MapPin, Clock, Phone, MessageCircle, AlertTriangle, Navigation } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 
 const Contact = () => {
-  const navigate = useNavigate();
+  
   const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
   const phoneUrl = "tel:+5511945009425";
   const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Rua+Haddock+Lobo+1307+São+Paulo+SP";
@@ -55,13 +55,15 @@ const Contact = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-3">
-              <button
-                onClick={() => navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`)}
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-cta px-5 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 cursor-pointer"
               >
                 <MessageCircle className="h-4 w-4" />
                 Chamar no WhatsApp
-              </button>
+              </a>
               <a
                 href={phoneUrl}
                 className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-body font-medium text-foreground transition-colors hover:bg-muted"

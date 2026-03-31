@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 import {
   Carousel,
   CarouselContent,
@@ -14,7 +14,7 @@ const photos = ["/result-1.png", "/result-2.png", "/result-3.png"];
 const whatsappUrl = "https://wa.me/5511945009425?text=Olá%2C%20venho%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!";
 
 const Results = () => {
-  const navigate = useNavigate();
+  
 
   return (
     <section className="py-16 bg-muted/50">
@@ -66,7 +66,8 @@ const Results = () => {
           </p>
           <a
             href={whatsappUrl}
-            onClick={(e) => { e.preventDefault(); navigate(`/redirect?url=${encodeURIComponent(whatsappUrl)}`); }}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-cta px-6 py-2.5 text-sm font-body font-semibold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:brightness-110 cursor-pointer"
           >
             <MessageCircle className="h-4 w-4" />
